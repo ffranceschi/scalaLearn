@@ -75,3 +75,4 @@ fabric.properties
 .idea/sbt.xml
 .idea/vcs.xml
 scalaLearn.iml
+target
