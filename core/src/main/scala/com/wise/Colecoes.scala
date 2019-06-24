@@ -1,5 +1,7 @@
 package com.wise
 
+import scala.collection.mutable.ListBuffer
+
 object Colecoes extends App {
 
   case class Colecoes(val valor: String)
@@ -33,6 +35,9 @@ object Colecoes extends App {
   cols3.foreach(a => println(a.valor))
   println("=========")
 
+  val person1 = Person("a","b",1)
+  var persons: ListBuffer[Person] = ListBuffer()
+  persons.+=(person1)
 
-
+  persons.foreach(println(_))
 }
