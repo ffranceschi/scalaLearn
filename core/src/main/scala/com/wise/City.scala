@@ -19,8 +19,11 @@ object Person2 {
 object Exec extends App {
 // Uses the default apply method
 val m1 = Person2("Mikael", "Valot", City.London)
+  println(m1)
 // Call apply with fullName
 val m2 = Person2("Mikael Valot", City.London)
+  println(m2)
 // We can omit 'apply'
 val n = Person2.apply ("Nicolas Jorand", City.Lausanne)
+  println(n)
 }
